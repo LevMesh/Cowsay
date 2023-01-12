@@ -3,15 +3,9 @@ Hey Everyone! My name is Lev Meshorer. And this is Foodtrucks project:)
 What I've done in this project?
 
 I've Built the Dockerfile (Dockerized the webapp)
-I Wrote a nginx.conf file to handle with the webapp
-I've Built a docker-compose in order to make the three services work with each other, Webapp image, elasticsearch and nginx.
-In order to deploy the webapp, please enter the following command in order to build the webapp docker image:
+I Wrote an initialization script which builds the docker image and asks for port, if port is already in use, sets the port for default 8080.
 
-docker build -t food:1.0 .
-
-after the dockerfile has been built lets deploy the docker-compose with the command:
-
-docker-compose up -d
+now, please run init-cowsay.sh script, and that's it!
 
 Awesome! Everything should be up and running in the address http://localhost:8080
 
