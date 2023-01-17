@@ -1,4 +1,4 @@
-Hey Everyone! My name is Lev Meshorer. And this is Foodtrucks project:)
+Hey Everyone! My name is Lev Meshorer. And this is Cowsay project:)
 
 What I've done in this project?
 
